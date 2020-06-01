@@ -30,6 +30,8 @@ For Python 3, use:
 
 `sudo apt install python3-dev python3-h5py python3-matplotlib python3-networkx python3-numpy python3-scipy`
 
+## Make and Install
+
 Download the [latest CDF library](https://spdf.gsfc.nasa.gov/pub/software/cdf/dist/cdf37_1/cdf-dist-all.tar.gz "Download 3.7.1"). Choose the file ending in `-dist-all.tar.gz` from the linux directory. Untar `tar -zxvf cdf-dist-all.tar.gz` and cd into the resulting directory. Then build:
 
 `make OS=linux ENV=gnu CURSES=yes FORTRAN=no UCOPTIONS=-O2 SHARED=yes all`
