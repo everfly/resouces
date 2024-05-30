@@ -37,3 +37,7 @@ Run the following command in Powershell to set WSL 2 as the default version when
 `wsl --set-default-version 2`
 
 Now you can open the **Microsoft Store**, select and install your favorite Linux distribution. And use the command `wsl -l -v` to see what you have installed
+
+
+123
+456
